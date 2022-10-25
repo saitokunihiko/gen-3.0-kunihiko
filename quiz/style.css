@@ -1,0 +1,148 @@
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+
+.p-header {
+  display: flex;
+  position: fixed;
+  height: 80px;
+  align-items: center;
+  padding: 15px 24px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.navi {
+  display: flex;
+}
+
+.p-button {
+  align-items: center;
+  border: solid 4px #eee;
+  border-radius: 8px;
+  display: flex;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: left;
+  width: 100%;
+  border-width: 5px;
+  font-size: 18px;
+  padding: 19px;
+  background: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+}
+
+.header-top {
+  margin-left: auto;
+  display: flex;
+}
+
+main {
+  padding-top: 80px;
+}
+
+.headline {
+  background-image: ;
+}
+
+.quiz {
+  padding-top: 120px;
+  max-width: 1032px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Q {
+  background-color: #0071bc;
+  display: inline-block;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 7vw;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 8px 16px;
+}
+
+.p-text {
+  font-size: 6vw;
+  line-height: 1.5;
+  margin-top: 24px;
+  font-weight: bold;
+  width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img {
+  max-width: 718px;
+  margin: 24px auto 0;
+}
+
+.A {
+  background-color: #e34e70;
+  display: inline-block;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 8px 16px;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.icon {
+  margin-left: auto;
+  font-size: 16px;
+}
+
+.icon::before {
+  content: url(../assets-ph1-website-main/img/icon/icon-arrow.svg);
+}
+
+cite {
+  font-size: 18px;
+  align-items: conter;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  gap: 16px;
+  line-height: 1.8;
+  margin-top: 16px;
+  padding: 24px;
+}
+
+.icon2::before {
+  content: url(../assets-ph1-website-main/img/icon/icon-note.svg);
+}
+
+.answer {
+  margin-top: 64px;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.headline {
+  background-image: url(../assets-ph1-website-main/img/quiz/bg-hero.jpg);
+}
